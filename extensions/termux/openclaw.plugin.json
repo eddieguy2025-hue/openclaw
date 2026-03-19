@@ -1,0 +1,6 @@
+{
+  "id": "termux",
+  "name": "Termux Mobile Agent",
+  "description": "Mobile-friendly agent for Termux, tmux, pydroid3, and Android environments",
+  "version": "2026.3.2"
+}
