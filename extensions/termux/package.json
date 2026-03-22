@@ -1,0 +1,27 @@
+{
+  "name": "@openclaw/termux",
+  "version": "2026.3.2",
+  "description": "OpenClaw Termux/Android mobile agent extension — tmux sessions, mobile web UI, and scratch-built agents for Termux, pydroid3, and Android",
+  "keywords": [
+    "android",
+    "mobile",
+    "openclaw",
+    "pydroid3",
+    "termux",
+    "tmux"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
